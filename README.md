@@ -18,4 +18,4 @@ The Resolver is supporting legacy applications in addressing live network resour
 - [Implementation](./server/)
 
 ### Comments
-This application will be specified during training for ApplicationOwner.
+This application will be specified during [training for ApplicationOwners](https://gist.github.com/openBackhaul/5aabdbc90257b83b9fe7fc4da059d3cd).

@@ -1,10 +1,13 @@
 # Resolver Testing
 
-### Test Cases (Postman Export)
+## Test Cases (Postman Export)
+
 - [Resolver+testcases](./Resolver+testcases.json)
 
-### DATAfile
+## DATAfile
+
 - to be provided
 
-### Comments
+## Comments
+
 ./.

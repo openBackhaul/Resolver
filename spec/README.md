@@ -1,20 +1,26 @@
 # Resolver Specification
 
-### ServiceList
+## ServiceList
+
 - [Resolver+services](./Resolver+services.yaml)
 
-### ProfileList and ProfileInstanceList
+## ProfileList and ProfileInstanceList
+
 - [Resolver+profiles](./Resolver+profiles.yaml)
 - [Resolver+profileInstances](./Resolver+profileInstances.yaml)
 
-### ForwardingList
+## ForwardingList
+
 - [Resolver+forwardings](./Resolver+forwardings.yaml)
 
-### Open API specification (Swagger)
+## Open API specification (Swagger)
+
 - [Resolver](./Resolver.yaml)
 
-### CONFIGfile (JSON)
+## CONFIGfile (JSON)
+
 - [Resolver+config](./Resolver+config.json)
 
-### Comments
+## Comments
+
 ./.

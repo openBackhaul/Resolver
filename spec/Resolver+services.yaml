@@ -1,5 +1,5 @@
 servers:
-## TODO: Search and replace all "xx" in the uuid by the official abbreviation of the ApplicationName
+  ## TODO: Search and replace all "xx" in the uuid by the official abbreviation of the ApplicationName
 
   operation-servers:
     own-oam:
@@ -44,21 +44,21 @@ servers:
         - operation-name: /docs
           uuid: xx-1-0-0-op-s-bs-005
       individual:
-        ## TODO: Add Services specific to this application
+      # TODO: Add Services specific to this application
   http-server:
-    own-application-name: ## TODO: Add OwnApplicationName
-    own-release-number: ## TODO: Add OwnReleaseNumber (e.g. 1.0.0)
+    own-application-name:  # TODO: Add OwnApplicationName
+    own-release-number:  # TODO: Add OwnReleaseNumber (e.g. 1.0.0)
     uuid: xx-1-0-0-http-s-000
   tcp-server:
     - description: Without TLS layer
       local-protocol: http
-      own-ip-address: ## TODO: Add OwnIpAddress
-      own-tcp-port: ## TODO: Add OwnTcpPort
+      own-ip-address:  # TODO: Add OwnIpAddress
+      own-tcp-port:  # TODO: Add OwnTcpPort
       uuid: xx-1-0-0-tcp-s-000
     - description: With TLS layer
       local-protocol: https
-      own-ip-address: ## TODO: Add OwnIpAddress
-      own-tcp-port: ## TODO: Add OwnTcpPort
+      own-ip-address:  # TODO: Add OwnIpAddress
+      own-tcp-port:  # TODO: Add OwnTcpPort
       uuid: xx-1-0-0-tcp-s-001
 
 
@@ -75,16 +75,16 @@ clients:
       uuid: xx-1-0-0-tcp-c-es-1-0-0-000
     elasticsearch-client:
       uuid: xx-1-0-0-es-c-es-1-0-0-000
-      index-alias: ## TODO: Add IndexAlias
+      index-alias:  # TODO: Add IndexAlias
 
   - http-client:
       application-name: OldRelease
-      release-number: ## TODO: Add Number of Release to be substituted (e.g. 1.0.0)
+      release-number:  # TODO: Add Number of Release to be substituted (e.g. 1.0.0)
       uuid: xx-1-0-0-http-c-or-1-0-0-000
     tcp-client:
       remote-protocol: http
-      ip-address: ## TODO: Add IpAddress of Release to be substituted
-      tcp-port: ## TODO: Add TcpPort of Release to be substituted
+      ip-address:  # TODO: Add IpAddress of Release to be substituted
+      tcp-port:  # TODO: Add TcpPort of Release to be substituted
       uuid: xx-1-0-0-tcp-c-or-1-0-0-000
     operation-clients:
       own-oam:
@@ -98,18 +98,18 @@ clients:
 
   - http-client:
       application-name: NewRelease
-      release-number: ## TODO: Add Number of substituting Release (e.g. 1.0.1)
+      release-number:  # TODO: Add Number of substituting Release (e.g. 1.0.1)
       uuid: xx-1-0-0-http-c-nr-1-0-0-000
     tcp-client:
       remote-protocol: http
-      ip-address: ## TODO: Add IpAddress of substituting Release
-      tcp-port: ## TODO: Add TcpPort of substituting Release
+      ip-address:  # TODO: Add IpAddress of substituting Release
+      tcp-port:  # TODO: Add TcpPort of substituting Release
       uuid: xx-1-0-0-tcp-c-nr-1-0-0-000
     operation-clients:
       own-oam:
         basic:
         individual:
-          ## TODO: Add Services required for handing-over configuration or data during update
+        # TODO: Add Services required for handing-over configuration or data during update
       service:
         basic:
         individual:
@@ -137,9 +137,9 @@ clients:
         individual:
       service:
         basic:
-          ## TODO: Add Clients specific to this application, but addressing all other applications
+        # TODO: Add Clients specific to this application, but addressing all other applications
         individual:
-          ## TODO: Add Clients specific to this application
+        # TODO: Add Clients specific to this application
 
   - http-client:
       application-name: TypeApprovalRegister
@@ -156,9 +156,9 @@ clients:
         individual:
       service:
         basic:
-          ## TODO: Add Clients specific to this application, but addressing all other applications
+        # TODO: Add Clients specific to this application, but addressing all other applications
         individual:
-          ## TODO: Add Clients specific to this application
+        # TODO: Add Clients specific to this application
 
   - http-client:
       application-name: ExecutionAndTraceLog
@@ -177,9 +177,9 @@ clients:
         individual:
       service:
         basic:
-          ## TODO: Add Clients specific to this application, but addressing all other applications
+        # TODO: Add Clients specific to this application, but addressing all other applications
         individual:
-          ## TODO: Add Clients specific to this application
+        # TODO: Add Clients specific to this application
 
   - http-client:
       application-name: OamLog
@@ -198,9 +198,9 @@ clients:
         individual:
       service:
         basic:
-          ## TODO: Add Clients specific to this application, but addressing all other applications
+        # TODO: Add Clients specific to this application, but addressing all other applications
         individual:
-          ## TODO: Add Clients specific to this application
+        # TODO: Add Clients specific to this application
 
   - http-client:
       application-name: AdministratorAdministration
@@ -219,9 +219,9 @@ clients:
         individual:
       service:
         basic:
-          ## TODO: Add Clients specific to this application, but addressing all other applications
+        # TODO: Add Clients specific to this application, but addressing all other applications
         individual:
-          ## TODO: Add Clients specific to this application
+        # TODO: Add Clients specific to this application
 
   - http-client:
       application-name: ApplicationLayerTopology
@@ -250,9 +250,9 @@ clients:
         individual:
       service:
         basic:
-          ## TODO: Add Clients specific to this application, but addressing all other applications
+        # TODO: Add Clients specific to this application, but addressing all other applications
         individual:
-          ## TODO: Add Clients specific to this application
+        # TODO: Add Clients specific to this application
 
   - http-client:
       application-name: OperationKeyManagement
@@ -269,25 +269,25 @@ clients:
         individual:
       service:
         basic:
-          ## TODO: Add Clients specific to this application, but addressing all other applications
+        # TODO: Add Clients specific to this application, but addressing all other applications
         individual:
-          ## TODO: Add Clients specific to this application
+        # TODO: Add Clients specific to this application
 
   - http-client:
-      application-name: ## TODO: Add Name of application to be addressed
-      release-number: ## TODO: Add Release number of application to be addressed
-      uuid: ## TODO: Add UUID of the HttpClient
+      application-name:  # TODO: Add Name of application to be addressed
+      release-number:  # TODO: Add Release number of application to be addressed
+      uuid:  # TODO: Add UUID of the HttpClient
     tcp-client:
       remote-protocol: http
-      ip-address: ## TODO: Add IP address of application to be addressed
-      tcp-port: ## TODO: Add TCP port of application to be addressed
-      uuid: ## TODO: Add UUID of the TcpClient
+      ip-address:  # TODO: Add IP address of application to be addressed
+      tcp-port:  # TODO: Add TCP port of application to be addressed
+      uuid:  # TODO: Add UUID of the TcpClient
     operation-clients:
       own-oam:
         basic:
         individual:
       service:
         basic:
-          ## TODO: Add Clients specific to this application, but addressing all other applications
+        # TODO: Add Clients specific to this application, but addressing all other applications
         individual:
-          ## TODO: Add Clients specific to this application
+        # TODO: Add Clients specific to this application

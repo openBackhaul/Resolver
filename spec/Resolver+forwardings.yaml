@@ -83,7 +83,7 @@ forwardings:
         uuid: xx-1-0-0-op-s-bs-004
       - server-name: /docs
         uuid: xx-1-0-0-op-s-bs-005
-      ## TODO: All service requests to be complemented
+      -  # TODO: All service requests to be complemented
     consequent-requests:
       - client-name: ExecutionAndTraceLog://v1/record-service-request
         uuid: xx-1-0-0-op-c-bs-eatl-2-0-1-000
@@ -122,13 +122,13 @@ forwardings:
       - client-name: AdministratorAdministration://v1/approve-oam-request
         uuid: xx-1-0-0-op-c-bs-aa-2-0-1-000
 
-## TODO: Potentially add Forwardings for configuring INDIVIDUAL subscriptions on NewRelease
+  -  # TODO: Potentially add Forwardings for configuring INDIVIDUAL subscriptions on NewRelease
 
-## TODO: Add Forwardings for transferring data to NewRelease
+  -  # TODO: Add Forwardings for transferring data to NewRelease
 
-## TODO: Potentially add Forwardings for creating INDIVIDUAL subscriptions to NewRelease
+  -  # TODO: Potentially add Forwardings for creating INDIVIDUAL subscriptions to NewRelease
 
-## TODO: Potentially add Forwardings for ending INDIVIDUAL subscriptions to OldRelease
+  -  # TODO: Potentially add Forwardings for ending INDIVIDUAL subscriptions to OldRelease
 
   - forwarding-name: PromptForBequeathingDataCausesRequestForBroadcastingInfoAboutServerReplacement
     uuid: xx-1-0-0-op-fc-bm-105
@@ -218,7 +218,7 @@ forwardings:
         uuid: xx-1-0-0-op-s-bm-011
       - server-name: /v1/bequeath-your-data-and-die
         uuid: xx-1-0-0-op-s-im-000
-      ## TODO: All INDIVIDUAL service requests, which are updating an LTP, to be complemented
+      -  # TODO: All INDIVIDUAL service requests, which are updating an LTP, to be complemented
     consequent-requests:
       - client-name: ApplicationLayerTopology://v1/update-ltp
         uuid: xx-1-0-0-op-c-bm-alt-2-0-1-001
@@ -236,7 +236,7 @@ forwardings:
       fc-port-deletion:
       operation-client-deletion:
     initiating-requests:
-      ## TODO: All INDIVIDUAL service requests, which are deleting an LTP, to be complemented
+    # TODO: All INDIVIDUAL service requests, which are deleting an LTP, to be complemented
     consequent-requests:
       - client-name: ApplicationLayerTopology://v1/delete-ltp-and-dependents
         uuid: xx-1-0-0-op-c-bm-alt-2-0-1-002
@@ -254,7 +254,7 @@ forwardings:
       fc-port-deletion:
       operation-client-deletion:
     initiating-requests:
-      ## TODO: All INDIVIDUAL service requests, which are updating an FC, to be complemented
+    # TODO: All INDIVIDUAL service requests, which are updating an FC, to be complemented
     consequent-requests:
       - client-name: ApplicationLayerTopology://v1/update-fc
         uuid: xx-1-0-0-op-c-bm-alt-2-0-1-003
@@ -272,7 +272,7 @@ forwardings:
       fc-port-deletion:
       operation-client-deletion:
     initiating-requests:
-      ## TODO: All INDIVIDUAL service requests, which are updating an FC-Port, to be complemented
+    # TODO: All INDIVIDUAL service requests, which are updating an FC-Port, to be complemented
     consequent-requests:
       - client-name: ApplicationLayerTopology://v1/update-fc-port
         uuid: xx-1-0-0-op-c-bm-alt-2-0-1-004
@@ -292,7 +292,7 @@ forwardings:
     initiating-requests:
       - server-name: /v1/end-subscription
         uuid: xx-1-0-0-op-s-bm-004
-      ## TODO: All INDIVIDUAL service requests, which are deleting an FC-Port, to be complemented
+      -  # TODO: All INDIVIDUAL service requests, which are deleting an FC-Port, to be complemented
     consequent-requests:
       - client-name: ApplicationLayerTopology://v1/delete-fc-port
         uuid: xx-1-0-0-op-c-bm-alt-2-0-1-005
@@ -382,4 +382,4 @@ forwardings:
       - client-name: ApplicationLayerTopology://v1/delete-fc-port
         uuid: xx-1-0-0-op-c-bm-alt-2-0-1-005
 
-  ## TODO: Potential INDIVIDUAL Forwardings to be added
+  -  # TODO: Potential INDIVIDUAL Forwardings to be added

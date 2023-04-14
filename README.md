@@ -36,19 +36,19 @@ The Resolver is supporting legacy applications in addressing live network resour
 
 ### [Accesport2LtpTranslator](https://github.com/openBackhaul/Accessport2LtpTranslator)
 
-- openBackhaul/Accessport2LtpTranslator#18
-- openBackhaul/Accessport2LtpTranslator#19
-- openBackhaul/Accessport2LtpTranslator#20
-- openBackhaul/Accessport2LtpTranslator#37
-- openBackhaul/Accessport2LtpTranslator#38
+- [Create ServiceList](openBackhaul/Accessport2LtpTranslator#18)
+- [Create ProfileList](openBackhaul/Accessport2LtpTranslator#19)
+- [Create ProfileInstanceList](openBackhaul/Accessport2LtpTranslator#20)
+- [Create ForwardingList](openBackhaul/Accessport2LtpTranslator#37)
+- [Create CONFIGfile](openBackhaul/Accessport2LtpTranslator#38)
 
 ### [Linkid2LtpTranslator](https://github.com/openBackhaul/Linkid2LtpTranslator)
 
-- openBackhaul/Linkid2LtpTranslator#7
-- openBackhaul/Linkid2LtpTranslator#8
-- openBackhaul/Linkid2LtpTranslator#9
-- openBackhaul/Linkid2LtpTranslator#15
-- openBackhaul/Linkid2LtpTranslator#17
+- [Create ServiceList](openBackhaul/Linkid2LtpTranslator#7)
+- [Create ProfileList](openBackhaul/Linkid2LtpTranslator#8)
+- [Create ProfileInstanceList](openBackhaul/Linkid2LtpTranslator#9)
+- [Create ForwardingList](openBackhaul/Linkid2LtpTranslator#15)
+- [Create CONFIGfile](openBackhaul/Linkid2LtpTranslator#17)
 
 ## Comments
 

@@ -32,6 +32,24 @@ The Resolver is supporting legacy applications in addressing live network resour
 - [TestSuite](./testing/)
 - [Implementation](./server/)
 
+## Dependencies
+
+### [Accesport2LtpTranslator](https://github.com/openBackhaul/Accessport2LtpTranslator)
+
+- openBackhaul/Accessport2LtpTranslator#18
+- openBackhaul/Accessport2LtpTranslator#19
+- openBackhaul/Accessport2LtpTranslator#20
+- openBackhaul/Accessport2LtpTranslator#37
+- openBackhaul/Accessport2LtpTranslator#38
+
+### [Linkid2LtpTranslator](https://github.com/openBackhaul/Linkid2LtpTranslator)
+
+- openBackhaul/Linkid2LtpTranslator#7
+- openBackhaul/Linkid2LtpTranslator#8
+- openBackhaul/Linkid2LtpTranslator#9
+- openBackhaul/Linkid2LtpTranslator#15
+- openBackhaul/Linkid2LtpTranslator#17
+
 ## Comments
 
 This application will be specified during [training for ApplicationOwners](https://gist.github.com/openBackhaul/5aabdbc90257b83b9fe7fc4da059d3cd).
